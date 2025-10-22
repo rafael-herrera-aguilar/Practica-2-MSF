@@ -1,9 +1,8 @@
-[![Open in MATLAB Online]
-
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=rafael-herrera-aguilar/Practica-2-MSF)
 # Práctica: Sistema cardiovascular
 
 ## Información de la estudiante
-Corina Plata-Ante \[03210981]; corina.plata@tectijuana.edu.mx
+Rafael Herrera Aguilar \[22212258]; l22212258@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
@@ -22,30 +21,30 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-\1. Calcular la función de transferencia.
-\2. Determinar el modelo de ecuaciones integro-diferenciales.
-\3. Calcular el error en estado estacionario y la estabilidad en lazo abierto.
-\4. Emular y simular la respuesta del circuito en Simulink/Simscape a la señal "Uniform Random Number" con la siguiente configuración: min = -0.2 V; max = 1 V; seed = 106; Sample time = 0.5.
-\5. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema normotenso-hipotenso y normotenso-hipertenso.
-\6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
+1. Calcular la función de transferencia.
+2. Determinar el modelo de ecuaciones integro-diferenciales.
+3. Calcular el error en estado estacionario y la estabilidad en lazo abierto.
+4. Emular y simular la respuesta del circuito en Simulink/Simscape a la señal "Uniform Random Number" con la siguiente configuración: min = -0.2 V; max = 1 V; seed = 106; Sample time = 0.5.
+5. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema normotenso-hipotenso y normotenso-hipertenso.
+6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
 
 ## Descripción detallada del sistema
 
 El modelo de Windkessel de cuatro elementos contiene dos elementos dinámicos. Por lo tanto, se necesitan dos estados para describir la dinámica. El vector de estados se conforma por las variables FL(t) denotando el flujo a través de la inercia arterial total, y la variable Pp(t) representando la presión sobre la distensibilidad arterial. Entonces, asumiendo Pa(t) como la presión arterial de entrada, y en consecuencia a Fa(t) como el flujo hacia la aorta o arteria pulmonar. Los parámetros son Z, C, R y L, que representan respectivamente la impedancia característica del lecho vascular pulmonar (aorta y arteria pulmonar), la distensibilidad aérea total, la resistencia periférica y la inertancia arterial. Este modelo tiene muchas ventajas importantes, por ejemplo:
 
-\1. Su sencillez, unos pocos elementos interconectados son suficientes para reproducir la dinámica principal del sistema cardiovascular.
+1. Su sencillez, unos pocos elementos interconectados son suficientes para reproducir la dinámica principal del sistema cardiovascular.
 
-\2. Existe una clara analogía entre los elementos eléctricos y los componentes hidráulicos implicados en el efecto Windkessel. En consecuencia, se relacionan fácilmente con el significado hemodinámico y el acoplamiento ventrículo-arterial.
+2. Existe una clara analogía entre los elementos eléctricos y los componentes hidráulicos implicados en el efecto Windkessel. En consecuencia, se relacionan fácilmente con el significado hemodinámico y el acoplamiento ventrículo-arterial.
 
-Palabras clave: ???; ???; ???; ???; ???
+Palabras clave: Circuito RLC; Controlador PI; Sistema cardiovascular; Modelo matemático; Simulaciones numéricas.
 
 ## Lista de archivos incluidos en el repositorio
-\1. Cuaderno computacional de MATLAB [.mlx].
-\2. Modelo de Simulink [.slx].
-\3. Archivos de Spyder [.py].
-\4. Imagen con los parámetros del controlador.
-\5. Imágenes de las simulaciones [.pdf y .png].
-\6. Evidencia del análisis matemático: función de transferencia, modelo de ecuaciones integro-diferenciales, error en estado estacionario y estabilidad en lazo abierto.
+1. Cuaderno computacional de MATLAB [.mlx].
+2. Modelo de Simulink [.slx].
+3. Archivos de Spyder [.py].
+4. Imagen con los parámetros del controlador.
+5. Imágenes de las simulaciones [.pdf y .png].
+6. Evidencia del análisis matemático: función de transferencia, modelo de ecuaciones integro-diferenciales, error en estado estacionario y estabilidad en lazo abierto.
 
 ## Referencias
 \[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
