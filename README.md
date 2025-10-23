@@ -1,7 +1,7 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=rafael-herrera-aguilar/Practica-2-MSF)
 # Práctica: Sistema cardiovascular
 
-## Información de la estudiante
+## Información del estudiante
 Rafael Herrera Aguilar \[22212258]; l22212258@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
